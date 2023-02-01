@@ -10,6 +10,7 @@ import Social from "./components/Social";
 import Events from "./components/Events";
 import Info from "./components/Info";
 
+
 import { Button, ButtonGroup } from '@chakra-ui/react';
 import logo from "./Assets/logo.png";
 import { Skeleton, SkeletonCircle, SkeletonText, Text } from '@chakra-ui/react'
@@ -27,7 +28,7 @@ function App() {
       <Flex w="100%">
       <Box ml="170" as="img" boxSize="50px" src={logo} mr={3} />
          <Heading
-           size="xl" fontWeight='semibold' bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text'>CardinalHacks</Heading>
+           size="xl" fontWeight='semibold' bgGradient="linear(to-r, yellow.400, orange.500, red.600)" bgClip='text'>CardinalHacks</Heading>
 
 
         <Spacer></Spacer>
@@ -48,6 +49,7 @@ function App() {
       </Box>
 
       <Info></Info>
+    
       <Spacer></Spacer>
              <Text fontSize="2xl" w={"75%"}>
                 There are no restrictions on what you can build. 
@@ -78,7 +80,6 @@ function App() {
       <Events></Events>
 </Flex>
       <Profile></Profile>
-      <Social></Social>
 
       <Divider orientation='horizontal' />
             <FAQ></FAQ>

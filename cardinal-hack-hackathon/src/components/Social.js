@@ -3,6 +3,8 @@ import { HStack } from '@chakra-ui/layout'
 import { IconButton } from '@chakra-ui/react'
 import React from 'react'
 import { FaFacebookF, FaGoogle, FaGithub, FaDiscord } from 'react-icons/fa'
+import { SiDevpost } from 'react-icons/si'
+
 
 function Social() {
     return (
@@ -11,6 +13,7 @@ function Social() {
             <IconButton as={FaGoogle} boxSize="50" isRound='true'/> */}
             <IconButton as={FaGithub} boxSize="50" isRound='true' onClick={() => window.open("https://github.com/AJChippi")}/>
             <IconButton as={FaDiscord} boxSize="50" isRound='true' onClick={() => window.open("https://discord.gg/CD3m9Xr5QB")}/>
+            <IconButton as={SiDevpost} boxSize="50" isRound='true' onClick={() => window.open("")}/>
         </HStack>
     )
 }

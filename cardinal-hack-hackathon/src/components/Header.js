@@ -26,7 +26,7 @@ function Header() {
                 alignSelf="center">
                 <Box mt={isNotSmallerScreen ? "0" : 16} align='center'>
                     <Text fontSize="3xl" fontWeight="semibold" >CardinalHacks</Text>
-                    <Text fontSize="9xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >Hackathon</Text>
+                    <Text fontSize="9xl" fontWeight="bold" bgGradient="linear(to-r, yellow.400, orange.500, red.600)" bgClip='text' >Hackathon</Text>
                     <Text color={isDark ? "gray.200" : "gray.500"}>What do you want to build today? 🗣</Text>
                     <Text w="75%" color={isDark ? "gray.200" : "gray.500"}>
                 There are no restrictions on what you can build. 
@@ -34,9 +34,9 @@ function Header() {
                 Windows Form, Game, and so on. There will be food and awards. 
                 Participate in the annual 24-hour hackathon hosted by 
                 Saginaw Valley State University for people who sense potential
-                 in a challenge and want to broaden their horizons.
+                in a challenge and want to broaden their horizons.
             </Text>
-                    <Button mt={8} colorScheme="blue" onClick={() =>
+                    <Button mt={8} size='lg' bgGradient="linear(to-r, yellow.400, orange.500, red.600)" onClick={() =>
                         window.open("https://svsu.edu")
                     }>APPLY NOW</Button>
                     
