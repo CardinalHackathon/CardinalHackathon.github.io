@@ -50,10 +50,10 @@ function App() {
              <Text fontSize="2xl" w={"75%"}>
                 There are no restrictions on what you can build. 
                 You can, for example, construct a Mobile App, Web App, 
-                Windows Forum, Game, and so on. There will be food and awards. 
+                Windows Form, Game, and so on. There will be food and awards. 
                 Participate in the annual 24-hour hackathon hosted by 
                 Saginaw Valley State University for people who sense potential
-                 in a challenge and want to broaden their horizons.
+                in a challenge and want to broaden their horizons.
             </Text>
 
       {/* <Social></Social> */}

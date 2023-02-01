@@ -29,7 +29,7 @@ function Header() {
                     <Text w="75%" color={isDark ? "gray.200" : "gray.500"}>
                 There are no restrictions on what you can build. 
                 You can, for example, construct a Mobile App, Web App, 
-                Windows Forum, Game, and so on. There will be food and awards. 
+                Windows Form, Game, and so on. There will be food and awards. 
                 Participate in the annual 24-hour hackathon hosted by 
                 Saginaw Valley State University for people who sense potential
                  in a challenge and want to broaden their horizons.
