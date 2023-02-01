@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Social from "./components/Social";
 import Events from "./components/Events";
+import Info from "./components/Info";
 
 import { Button, ButtonGroup } from '@chakra-ui/react';
 import logo from "./Assets/logo.png";
@@ -26,7 +27,7 @@ function App() {
       <Flex w="100%">
       <Box ml="170" as="img" boxSize="50px" src={logo} mr={3} />
          <Heading
-           size="xl" fontWeight='semibold' color="cyan.400">CardinalHacks</Heading>
+           size="xl" fontWeight='semibold' bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text'>CardinalHacks</Heading>
 
 
         <Spacer></Spacer>
@@ -46,7 +47,8 @@ function App() {
       <ChevronDownIcon boxSize={20} h={80} color="cyan.500" />
       </Box>
 
-
+      <Info></Info>
+      <Spacer></Spacer>
              <Text fontSize="2xl" w={"75%"}>
                 There are no restrictions on what you can build. 
                 You can, for example, construct a Mobile App, Web App, 
@@ -55,8 +57,15 @@ function App() {
                 Saginaw Valley State University for people who sense potential
                 in a challenge and want to broaden their horizons.
             </Text>
+            
 
-      {/* <Social></Social> */}
+      { <Social></Social> }
+
+      <Spacer></Spacer>
+
+      
+
+      <Spacer></Spacer>
       <Flex
     mt="20px"
     overflow="scroll"
@@ -69,7 +78,7 @@ function App() {
       <Events></Events>
 </Flex>
       <Profile></Profile>
-          
+      <Social></Social>
 
       <Divider orientation='horizontal' />
             <FAQ></FAQ>

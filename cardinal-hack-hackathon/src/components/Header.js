@@ -5,6 +5,8 @@ import { Stack, Circle, Flex, Box, Text } from '@chakra-ui/layout';
 import { useMediaQuery } from '@chakra-ui/media-query';
 import React from 'react'
 import logo from "../Assets/logo.png";
+import {FaDiscord} from 'react-icons/fa';
+import Icon from '@chakra-ui/icon';
 
 
 function Header() {
@@ -23,7 +25,7 @@ function Header() {
                 spacing="200px" p={isNotSmallerScreen ? "32" : "0"}
                 alignSelf="center">
                 <Box mt={isNotSmallerScreen ? "0" : 16} align='center'>
-                    <Text fontSize="3xl" fontWeight="semibold">CardinalHacks</Text>
+                    <Text fontSize="3xl" fontWeight="semibold" >CardinalHacks</Text>
                     <Text fontSize="9xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >Hackathon</Text>
                     <Text color={isDark ? "gray.200" : "gray.500"}>What do you want to build today? 🗣</Text>
                     <Text w="75%" color={isDark ? "gray.200" : "gray.500"}>
@@ -37,7 +39,8 @@ function Header() {
                     <Button mt={8} colorScheme="blue" onClick={() =>
                         window.open("https://svsu.edu")
                     }>APPLY NOW</Button>
-
+                    
+                    
                 </Box>
                 {/* <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
                     mb={isNotSmallerScreen ? "0" : "12"} borderRadius='none'
