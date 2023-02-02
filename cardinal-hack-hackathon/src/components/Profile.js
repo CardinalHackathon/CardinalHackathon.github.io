@@ -35,7 +35,7 @@ function Profile() {
             <Spacer />
             <Box alignSelf="flex-left" px="32" py="200">
 
-                            <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
+                <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
                     <Flex rounded="xl" direction="column" mt={4} bg="blue.400" h="30vh" w="30vh" justify="flex-end">
                         <Icon color="white" p="4" as={DiAndroid} w="24" h="24" />
                         <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
