@@ -1,14 +1,16 @@
 import React from 'react'
 import { IconButton } from "@chakra-ui/button";
 import { useColorMode } from "@chakra-ui/color-mode";
-import { Box, Flex, VStack, Heading, Spacer, Center } from "@chakra-ui/layout";
-import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { Box, Flex, VStack, Heading, Spacer, Center, HStack } from "@chakra-ui/layout";
+import { FaSun, FaMoon, FaDiscord, FaGithub } from 'react-icons/fa';
+import { SiDevpost } from 'react-icons/si';
 import FAQ from "./components/FAQ";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Social from "./components/Social";
 import Events from "./components/Events";
 import Info from "./components/Info";
+import About from "./components/About";
 
 
 import { Button, ButtonGroup } from '@chakra-ui/react';
@@ -32,36 +34,37 @@ function App() {
 
 
         <Spacer></Spacer>
-        <Button color='white' bgGradient="linear(to-r, yellow.400, orange.500, red.600)">APPLY</Button>
+        <HStack spacing="8">
+            <IconButton as={FaGithub} boxSize="35" isRound='true' onClick={() => window.open("https://github.com/AJChippi")}/>
+            <IconButton as={FaDiscord} boxSize="35" isRound='true' onClick={() => window.open("https://discord.gg/CD3m9Xr5QB")}/>
+            <IconButton as={SiDevpost} boxSize="35" isRound='true'  onClick={() => window.open("")}/>
+            <Button color='white' bgGradient="linear(to-r, yellow.400, orange.500, red.600)" onClick={() =>
+                        window.open("https://docs.google.com/forms/d/e/1FAIpQLSfwP11jDXznV2UUlgYNeZ5zARWz93XUiLMkvypkkgqYmBO7tA/viewform?usp=sf_link")
+                    }>APPLY</Button>
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
+        </HStack>
+        
       </Flex>
 
       <Box textAlign={"center"} h='calc(100vh)'>
       <Header></Header>
-      <ChevronDownIcon boxSize={20} h={80} color="cyan.500" />
+      <ChevronDownIcon boxSize={20} h={80} color="orange.500" />
       </Box>
 
       <Info></Info>
     
       <Spacer></Spacer>
-             <Text fontSize="2xl" w={"75%"}>
-                There are no restrictions on what you can build. 
-                You can, for example, construct a Mobile App, Web App, 
-                Windows Form, Game, and so on. There will be food and awards. 
-                Participate in the annual 24-hour hackathon hosted by 
-                Saginaw Valley State University for people who sense potential
-                in a challenge and want to broaden their horizons.
-            </Text>
+      <About></About>
             
 
-      { <Social></Social> }
+      {/* { <Social></Social> } */}
 
       <Spacer></Spacer>
 
       
 
       <Spacer></Spacer>
-      <Flex
+      {/* <Flex
     mt="20px"
     overflow="scroll"
     sx={{
@@ -70,9 +73,9 @@ function App() {
       },
     }}
   >
-      <Events></Events>
-</Flex>
-      <Profile></Profile>
+       <Events></Events> 
+</Flex> */}
+      {/* <Profile></Profile> */}
 
       <Divider orientation='horizontal' />
             <FAQ></FAQ>

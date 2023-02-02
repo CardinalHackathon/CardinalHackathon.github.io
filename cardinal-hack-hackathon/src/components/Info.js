@@ -10,7 +10,7 @@ function Info(){
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
 
     return(
-        <Flex direction={isNotSmallerScreen ? "row" : "column"} p={isNotSmallerScreen ? "32" : "0"}>
+        <Flex direction={isNotSmallerScreen ? "row" : "column"} p={isNotSmallerScreen ? "32" : "0"} justifyContent='center'>
         <HStack spacing={40}>
             <VStack>
                 <Box as='img' src={skill}/>
@@ -29,7 +29,9 @@ function Info(){
                 <Text fontSize="3xl" fontWeight='semibold' bgGradient="linear(to-r, yellow.400, orange.500, red.600)" bgClip='text'>Mar 18-19, 2023</Text>
                 <Text fontSize="l" fontWeight='semibold'>2 Days / 1 Night</Text>
             </VStack>
+            <Spacer></Spacer>
         </HStack>
+        <Spacer></Spacer>
         </Flex>
     )
 }

@@ -11,9 +11,9 @@ function Social() {
         <HStack spacing="24">
            {/* <IconButton as={FaFacebookF} boxSize="50" isRound='true'/>
             <IconButton as={FaGoogle} boxSize="50" isRound='true'/> */}
-            <IconButton as={FaGithub} boxSize="50" isRound='true' onClick={() => window.open("https://github.com/AJChippi")}/>
-            <IconButton as={FaDiscord} boxSize="50" isRound='true' onClick={() => window.open("https://discord.gg/CD3m9Xr5QB")}/>
-            <IconButton as={SiDevpost} boxSize="50" isRound='true' onClick={() => window.open("")}/>
+            <IconButton as={FaGithub} boxSize="35" isRound='true' onClick={() => window.open("https://github.com/AJChippi")}/>
+            <IconButton as={FaDiscord} boxSize="35" isRound='true' onClick={() => window.open("https://discord.gg/CD3m9Xr5QB")}/>
+            <IconButton as={SiDevpost} boxSize="35" isRound='true' marginRight={10} onClick={() => window.open("")}/>
         </HStack>
     )
 }
