@@ -32,14 +32,7 @@ function App() {
 
 
         <Spacer></Spacer>
-
-        
-        <Button color='cyan.400' variant='ghost'>ABOUT</Button>
-        <Button color='cyan.400' variant='ghost'>SCHEDULE</Button>
-        <Button color='cyan.400' variant='ghost'>FAQ</Button>
-        <Button color='cyan.400' variant='ghost'>SPONSORS</Button>
-        <Button color='cyan.400' variant='ghost'>TEAM</Button>
-        <Button color='cyan.400' variant='outline'>APPLY</Button>
+        <Button color='white' bgGradient="linear(to-r, yellow.400, orange.500, red.600)">APPLY</Button>
         <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>
       </Flex>
 
