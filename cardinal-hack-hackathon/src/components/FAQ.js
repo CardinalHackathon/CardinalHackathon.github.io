@@ -12,8 +12,8 @@ import { Box , Container, Spacer} from '@chakra-ui/layout';
 
 function FAQ() {
   return (
-    <Container maxW="8xl" centerConten>
-        <Heading textAlign='center' as='h2' size='4xl' fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >FAQs</Heading>
+    <Container minW="8xl" border={"5px solid black"}>
+        <Heading textAlign='center' as='h2' size='4xl' fontWeight="bold" bgGradient="linear(to-r, red.400, blue.500, purple.600)" bgClip='text' >FAQs</Heading>
 <br/>
     <Accordion allowToggle>
   <AccordionItem>
