@@ -11,6 +11,7 @@ import Social from "./components/Social";
 import Events from "./components/Events";
 import Info from "./components/Info";
 import About from "./components/About";
+import Schedule from './components/Schedule';
 
 
 import { Button, ButtonGroup } from '@chakra-ui/react';
@@ -64,6 +65,8 @@ function App() {
       
 
       <Spacer></Spacer>
+
+      {/* <Schedule></Schedule> */}
       {/* <Flex
     mt="20px"
     overflow="scroll"
