@@ -7,6 +7,7 @@ import React from "react";
 import logo from "../Assets/logo.png";
 import { FaDiscord } from "react-icons/fa";
 import Icon from "@chakra-ui/icon";
+import "@fontsource/contrail-one"
 
 function Header() {
   const { colorMode } = useColorMode();
@@ -15,10 +16,16 @@ function Header() {
   const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
 
   return (
-    <Stack w="100%">
+    <Stack 
+    w="100%" 
+    h="100%" 
+    // border={"5px solid white"}
+    justifyContent={"center"}
+    >
       {/* <Circle position="absolute" bg="blue.100" opacity="0.1"
                 w="300px" h="300px" alignSelf="flex-end" /> */}
-      <Flex
+      <Flex 
+        // border={"5px solid red"}
         direction={isNotSmallerScreen ? "row" : "column"}
         spacing="200px"
         p={isNotSmallerScreen ? "32" : "0"}
@@ -26,15 +33,17 @@ function Header() {
       >
         <Box mt={isNotSmallerScreen ? "0" : 16} align="center">
           <Text
-            fontSize={{ base: "4xl", md: "5xl", lg: "6xl" }}
+            fontSize={{ base: "4xl", md: "5xl", lg: "5xl" }}
             fontWeight="semibold"
+            textColor={"#e5e5e5"}
           >
             CardinalHacks
           </Text>
           <Text
-            fontSize={{ base: "6xl", md: "7xl", lg: "9xl" }}
-            fontWeight="bold"
-            bgGradient="linear(to-r, yellow.400, orange.500, red.600)"
+            fontSize={{ base: "6xl", md: "6xl", lg: "9xl" }}
+            fontFamily="Contrail One"
+            fontWeight="semibold"
+            bgGradient="linear(to-r, yellow.300, orange.500, red.700)"
             bgClip="text"
           >
             Hackathon

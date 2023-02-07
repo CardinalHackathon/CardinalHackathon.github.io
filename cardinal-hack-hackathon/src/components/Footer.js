@@ -59,8 +59,8 @@ const SocialButton = ({
 
 export default function SmallWithLogoLeft() {
   return (
-    <Box w='100%'
-      bg={useColorModeValue('gray.50', 'gray.900')}
+    <Box
+    backgroundColor={"#051014"}
       color={useColorModeValue('gray.700', 'gray.200')}>
       <Container
         as={Stack}
