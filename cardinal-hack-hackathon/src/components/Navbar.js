@@ -60,7 +60,7 @@ function Navbar() {
       boxShadow={"2xl"}
       px={4} 
       w="100%" 
-      backgroundColor={"#051014"}  
+      backgroundColor={isDark ? "#051014" : "#e5e5e5"}
       // p={4} 
       position="fixed" 
       top="0" 
@@ -102,17 +102,25 @@ function Navbar() {
           </Flex>
 
           <Flex alignItems={"center"}>
-            <IconButton
-                // border={"5px solid white"} 
 
-              position={"initial"}
-              size={"md"}
-              icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-              aria-label={"Open Menu"}
-              display={{ md: "none" }}
-              onClick={isOpen ? onClose : onOpen}
-            />
-            <HStack spacing={8} alignItems={"center"} >
+            <Box>
+            <IconButton
+                  mr={2}
+                  icon={isDark ? <FaSun /> : <FaMoon />}
+                  isRound="true"
+                  onClick={toggleColorMode}
+                ></IconButton>
+            <IconButton
+                 position={"initial"}
+                 size={"md"}
+                 icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+                 aria-label={"Open Menu"}
+                 display={{ md: "none" }}
+                 onClick={isOpen ? onClose : onOpen}
+               />
+            </Box>
+
+            <HStack spacing={8} alignItems={"center"}>
               {/* <Box>Logo</Box> */}
               <HStack
                 as={"nav"}
@@ -122,12 +130,6 @@ function Navbar() {
                 {Links.map((link) => (
                   <NavLink key={link}>{link}</NavLink>
                 ))}
-                {/* <IconButton
-                  ml={8}
-                  icon={isDark ? <FaSun /> : <FaMoon />}
-                  isRound="true"
-                  onClick={toggleColorMode}
-                ></IconButton> */}
               </HStack>
             </HStack>
           </Flex>

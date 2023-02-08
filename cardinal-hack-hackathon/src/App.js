@@ -47,7 +47,8 @@ function App() {
 
     <Flex
       fontFamily="'Hind Madurai', sans-serif"
-      backgroundColor="#040D10"
+      // backgroundColor="#040D10"
+      backgroundColor={isDark ? "#040D10" : "#e5e5e5"}
       flexDirection="column"
       textAlign="center"
       minH="calc(100vh)"

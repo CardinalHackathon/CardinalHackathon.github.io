@@ -10,7 +10,7 @@ root.render(
   <React.StrictMode>
     <ChakraProvider>
       <ColorModeScript 
-          initialColorMode='dark'>
+          initialColorMode='light'>
       </ColorModeScript>
     <App />
     

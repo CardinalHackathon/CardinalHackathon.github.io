@@ -8,6 +8,7 @@ import {
   Text,
   useColorModeValue,
   VisuallyHidden,
+  useColorMode
 } from '@chakra-ui/react';
 import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { ReactNode } from 'react';
@@ -58,9 +59,12 @@ const SocialButton = ({
 };
 
 export default function SmallWithLogoLeft() {
+  const { colorMode, toggleColorMode } = useColorMode();
+  const isDark = colorMode === "dark";
   return (
     <Box
-    backgroundColor={"#051014"}
+    backgroundColor={isDark ? "#051014" : "#e5e5e5"}
+    boxShadow={"dark-lg"}
       color={useColorModeValue('gray.700', 'gray.200')}>
       <Container
         as={Stack}

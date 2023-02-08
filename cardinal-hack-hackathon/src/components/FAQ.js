@@ -5,6 +5,7 @@ import {
   AccordionPanel,
   AccordionIcon,
   useMediaQuery,
+  useColorMode,
 } from "@chakra-ui/react";
 import React from "react";
 import { Heading } from "@chakra-ui/react";
@@ -12,7 +13,8 @@ import { Box, Container, Spacer } from "@chakra-ui/layout";
 
 function FAQ() {
   const isMobile = useMediaQuery("(max-width: 767px)");
-
+  const { colorMode, toggleColorMode } = useColorMode();
+  const isDark = colorMode === "dark";
   return (
     <Container 
     minW={{ base: "full", md: "70%" }} 
@@ -31,10 +33,10 @@ function FAQ() {
       </Heading>
       <br />
       <Accordion allowToggle
-      color={"gray.300"} 
+      color={isDark ? "gray.200" : "gray.500"}
       textAlign="left">
         <AccordionItem >
-          <h2>
+          <h2 >
             <AccordionButton 
             _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
             _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>

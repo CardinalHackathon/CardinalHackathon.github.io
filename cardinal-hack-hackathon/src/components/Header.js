@@ -35,7 +35,8 @@ function Header() {
           <Text
             fontSize={{ base: "4xl", md: "5xl", lg: "5xl" }}
             fontWeight="semibold"
-            textColor={"#e5e5e5"}
+            // textColor={"#e5e5e5"}
+            textColor={isDark ? "gray.200" : "gray.500"}
           >
             CardinalHacks
           </Text>
@@ -53,6 +54,8 @@ function Header() {
             width={["100%", "80%", "60%"]}
             px={["10px", "20px", "30px"]}
             color={isDark ? "gray.200" : "gray.500"}
+            fontSize={{ base: "1xl", md: "2xl", lg: "3xl" }}
+
           >
             What do you want to build today? 🗣
           </Text>
@@ -62,11 +65,7 @@ function Header() {
             px={["10px", "20px", "30px"]}
             color={isDark ? "gray.200" : "gray.500"}
           >
-            There are no restrictions on what you can build. You can, for
-            example, construct a Mobile App, Web App, Windows Form, Game, and so
-            on. There will be food and awards. Participate in the annual 24-hour
-            hackathon hosted by Saginaw Valley State University for people who
-            sense potential in a challenge and want to broaden their horizons.
+Unleash your potential and challenge yourself at the annual 24-hour hackathon hosted by Saginaw Valley State University! Here, the possibilities are endless as you can build anything from a Mobile App, Web App, Windows Form, Game, and beyond. With delicious food to fuel your creativity and exciting awards to be won, this is the perfect opportunity to showcase your skills and broaden your horizons. Join us for an unforgettable experience and take the first step towards realizing your full potential.
           </Text>
           <Button
             mt={8}

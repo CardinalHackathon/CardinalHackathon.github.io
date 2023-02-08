@@ -105,12 +105,7 @@ import {
                 </Center>
               </Heading>
               <Text color={"gray.500"}  >
-                There are no restrictions on what you can build. You can, for
-                example, construct a Mobile App, Web App, Windows Form, Game, and
-                so on. There will be food and awards. Participate in the annual
-                24-hour hackathon hosted by Saginaw Valley State University for
-                people who sense potential in a challenge and want to broaden
-                their horizons.
+              CardinalHacks is a 24-hour hackathon organized by Saginaw Valley State University Cardinals. It is a fast-paced and highly energized event where participants come together to develop and showcase their technical skills, creativity and innovation. The event provides a platform for participants to work on real-world problems, learn from each other, and network with industry professionals. Teams have 24 hours to conceptualize, design, and build a project from start to finish. At the end of the event, participants present their projects to a panel of judges for a chance to win prizes. CardinalHacks is a unique opportunity for participants to showcase their abilities and gain valuable experience in a supportive and inclusive environment.
               </Text>
             </Stack>
             <Spacer></Spacer>
