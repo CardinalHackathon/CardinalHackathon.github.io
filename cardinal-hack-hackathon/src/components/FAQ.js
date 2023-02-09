@@ -41,16 +41,14 @@ function FAQ() {
             _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
             _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>
               <Box as="span" flex="1" textAlign="left">
-                What is CardinalHacks
+                What is CardinalHacks?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4} >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          CardinalHacks is a 24-hour hackathon organized by Saginaw Valley State University Cardinals. It is a fast-paced and highly energized event where participants come together to develop and showcase their technical skills, creativity and innovation. The event provides a platform for participants to work on real-world problems, learn from each other, and network with industry professionals. Teams have 24 hours to conceptualize, design, and build a project from start to finish. At the end of the event, participants present their projects to a panel of judges for a chance to win prizes. CardinalHacks is a unique opportunity for participants to showcase their abilities and gain valuable experience in a supportive and inclusive environment.
+
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
@@ -58,16 +56,13 @@ function FAQ() {
           <AccordionButton 
             _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
             _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
-                What is Hackathon
+                What is Hackathon?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+          A hackathon is an event where people engage in rapid and collaborative engineering over a relatively short period of time such as 24 or 48 hours.
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
@@ -109,7 +104,7 @@ function FAQ() {
           <AccordionButton 
             _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
             _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
-                Do I have to know how to code to attend Hackathon?
+                Do I need to know how to code to attend a Hackathon?
               </Box>
               <AccordionIcon />
             </AccordionButton>
@@ -126,16 +121,13 @@ function FAQ() {
           <AccordionButton 
             _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
             _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
-                How many people can be in a team?
+                How many people can be on a team?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            A maximum of 4 individuals can be on a single team.
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
@@ -143,7 +135,7 @@ function FAQ() {
           <AccordionButton 
             _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
             _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
-                Is it SVSU students only?
+                Do you need to be a SVSU student to attend?
               </Box>
               <AccordionIcon />
             </AccordionButton>
@@ -177,7 +169,7 @@ function FAQ() {
           <AccordionButton 
             _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
             _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
-                Is there gonna be any food?
+                Is there going to be food provided?
               </Box>
               <AccordionIcon />
             </AccordionButton>
@@ -217,10 +209,7 @@ function FAQ() {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            For additional information, feel free to reach out to Anthony Chippi (achippi@svsu.edu).
           </AccordionPanel>
         </AccordionItem>
       </Accordion>
