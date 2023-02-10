@@ -12,7 +12,6 @@ import {
   HStack
 } from "@chakra-ui/layout";
 import { FaSun, FaMoon, FaDiscord, FaGithub } from "react-icons/fa";
-import { SiDevpost } from "react-icons/si";
 
 // Custom components
 import FAQ from "./components/FAQ";
@@ -53,28 +52,28 @@ function App() {
       textAlign="center"
       minH="calc(100vh)"
     >
-      <VStack alignItems="center" justifyContent="center">
-        <Navbar />
-        <Flex
-          flexDirection="column"
-          textAlign="center"
-          h="calc(90vh)"
-        >
-          <Header />
-          <Spacer />
-          <ChevronDownIcon
-            alignSelf="center"
-            boxSize={20}
-            h="min"
-            color="orange.500"
-          />
-        </Flex>
-        <Flex flexDirection="column" textAlign="center">
-          <Info />
-          <About />
-        </Flex>
-        <FAQ />
-      </VStack>
+        <VStack alignItems="center" justifyContent="center">
+            <Flex
+              flexDirection="column"
+              textAlign="center"
+              h="calc(90vh)"
+            >
+              <Navbar />
+              <Header />
+              <Spacer />
+              <ChevronDownIcon
+                alignSelf="center"
+                boxSize={20}
+                h="min"
+                color="orange.500"
+              />
+            </Flex>
+          <Flex flexDirection="column" textAlign="center">
+            <About />
+              <Info />
+          </Flex>
+          <FAQ />
+        </VStack>
       <Spacer />
       <Footer />
     </Flex>

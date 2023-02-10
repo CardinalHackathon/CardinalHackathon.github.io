@@ -29,11 +29,13 @@ import {
         <Stack 
         // border={"5px solid black"}
           spacing={{ base: 8, md: 10 }}
-          py={{ base: 120, md: 120 }}
-        //   pt={"100"}
+          pt={{ base: "100px", md: "200px" }}
+          pb={{ base: "0", md: "100px" }}
 
-        //   pb={{ base: 100, md: 200 }}
+          //   pt={"100"}
+
           direction={{ base: "column", md: "row" }}
+          
         >
           <Flex
         //   border={"5px solid white"}

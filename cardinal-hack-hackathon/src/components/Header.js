@@ -29,7 +29,9 @@ function Header() {
         direction={isNotSmallerScreen ? "row" : "column"}
         spacing="200px"
         p={isNotSmallerScreen ? "32" : "0"}
+        pt={isNotSmallerScreen ? "200px" : "100px"}
         alignSelf="center"
+        height={"container.xl"}
       >
         <Box mt={isNotSmallerScreen ? "0" : 16} align="center">
           <Text

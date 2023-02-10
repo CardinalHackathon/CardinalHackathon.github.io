@@ -15,23 +15,21 @@ import {
   MenuDivider,
   useDisclosure,
   useColorModeValue,
+  VisuallyHidden,
+  chakra,
   Stack,
+  Text,
   useColorMode,
 } from "@chakra-ui/react";
-// import {
-//   Router,
-//   Route,
-//   Switch,
-//   useLocation,
-//   useParams,
-//   useRouteMatch,
-// } from "react-router-dom";
+import { SiDevpost } from "react-icons/si";
+
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import Icon from "@chakra-ui/icon";
 import logo from "../Assets/logo.png";
 import About from "../components/About";
 import { FaSun, FaMoon, FaDiscord, FaGithub } from "react-icons/fa";
 import "@fontsource/hind-madurai";
+import FAQ from "./FAQ";
 
 const Links = ["About", "FAQ", "Social"];
 
@@ -49,6 +47,33 @@ const NavLink = ({ children }) => (
     {children}
   </Link>
 );
+
+const SocialButton = ({
+  children,
+  label,
+  href
+}) => {
+  return (
+    <chakra.button 
+      bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
+      rounded={'full'}
+      w={8}
+      h={8}
+      cursor={'pointer'}
+      as={'a'}
+      href={href}
+      display={'inline-flex'}
+      alignItems={'center'}
+      justifyContent={'center'}
+      transition={'background 0.3s ease'}
+      _hover={{
+        bg: useColorModeValue('blackAlpha.200', 'whiteAlpha.200'),
+      }}>
+      <VisuallyHidden>{label}</VisuallyHidden>
+      {children}
+    </chakra.button>
+  );
+    };
 
 function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -84,6 +109,7 @@ function Navbar() {
               </MenuButton>
               <MenuList>
                 <MenuItem>Link 1</MenuItem>
+                <FAQ></FAQ>
                 <MenuItem>Link 2</MenuItem>
                 <MenuDivider />
                 <MenuItem>Link 3</MenuItem>
@@ -104,12 +130,7 @@ function Navbar() {
           <Flex alignItems={"center"}>
 
             <Box>
-            <IconButton
-                  mr={2}
-                  icon={isDark ? <FaSun /> : <FaMoon />}
-                  isRound="true"
-                  onClick={toggleColorMode}
-                ></IconButton>
+
             <IconButton
                  position={"initial"}
                  size={"md"}
@@ -127,21 +148,57 @@ function Navbar() {
                 spacing={4}
                 display={{ base: "none", md: "flex" }}
               >
-                {Links.map((link) => (
-                  <NavLink key={link}>{link}</NavLink>
-                ))}
+<Stack direction={'row'} mr={3}>
+          <SocialButton label={'Devpost'} href={'#'}>
+            <SiDevpost size="full" />
+          </SocialButton>
+          <SocialButton label={'Discord'} href={'#'}>
+            <FaDiscord size="full"/>
+          </SocialButton>
+          <SocialButton label={'Github'} href={'#'}>
+            <FaGithub size="full"/>
+          </SocialButton>
+        </Stack>
               </HStack>
             </HStack>
+
+            <IconButton
+                  ml={{ base: 2, md: 6 }}
+                  icon={isDark ? <FaSun /> : <FaMoon />}
+                  isRound="true"
+                  onClick={toggleColorMode}
+                ></IconButton>
           </Flex>
         </Flex>
 
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
-            <Stack as={"nav"} spacing={4}>
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
-            </Stack>
+            {/* <Stack as={"nav"} spacing={4}> */}
+            <Stack direction={'column'} mr={3} align={"center"}>
+              <Stack direction={'row'}>
+          <SocialButton label={'Devpost'} href={'#'}> 
+          <SiDevpost />
+          
+          </SocialButton>
+          <Text alignSelf={"center"}>Devpost</Text>
+          </Stack>
+
+          <Stack direction={'row'}>
+          <SocialButton label={'Discord'} href={'#'}> 
+          <FaDiscord />
+          
+          </SocialButton>
+          <Text alignSelf={"center"}>Discord</Text>
+          </Stack>
+          <Stack direction={'row'}>
+          <SocialButton label={'Github'} href={'#'}> 
+          <FaGithub />
+          
+          </SocialButton>
+          <Text alignSelf={"center"}>GitHub</Text>
+          </Stack>
+        </Stack>
+            {/* </Stack> */}
           </Box>
         ) : null}
       </Box>

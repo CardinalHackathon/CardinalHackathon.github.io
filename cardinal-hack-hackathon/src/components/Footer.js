@@ -10,9 +10,10 @@ import {
   VisuallyHidden,
   useColorMode
 } from '@chakra-ui/react';
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaTwitter, FaGithub, FaDiscord } from 'react-icons/fa';
 import { ReactNode } from 'react';
 import logo from "../Assets/logo.png";
+import { SiDevpost } from "react-icons/si";
 
 const Logo = (props) => { 
   return (
@@ -78,13 +79,13 @@ export default function SmallWithLogoLeft() {
         <Text>© 2023 CardinalHacks. All rights reserved</Text>
         <Stack direction={'row'} spacing={6}>
           <SocialButton label={'Twitter'} href={'#'}>
-            <FaTwitter />
+            <SiDevpost />
           </SocialButton>
           <SocialButton label={'YouTube'} href={'#'}>
-            <FaYoutube />
+            <FaDiscord />
           </SocialButton>
           <SocialButton label={'Instagram'} href={'#'}>
-            <FaInstagram />
+            <FaGithub />
           </SocialButton>
         </Stack>
       </Container>
