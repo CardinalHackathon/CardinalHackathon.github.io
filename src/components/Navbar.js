@@ -149,13 +149,13 @@ function Navbar() {
                 display={{ base: "none", md: "flex" }}
               >
 <Stack direction={'row'} mr={3}>
-          <SocialButton label={'Devpost'} href={'#'}>
+          <SocialButton label={'Devpost'} href={'https://cardinalhacks.devpost.com/'}>
             <SiDevpost size="full" />
           </SocialButton>
-          <SocialButton label={'Discord'} href={'#'}>
+          <SocialButton label={'Discord'} href={'https://discord.gg/7gA9VQm3'}>
             <FaDiscord size="full"/>
           </SocialButton>
-          <SocialButton label={'Github'} href={'#'}>
+          <SocialButton label={'Github'} href={'https://github.com/CardinalHackathon'}>
             <FaGithub size="full"/>
           </SocialButton>
         </Stack>
@@ -176,7 +176,7 @@ function Navbar() {
             {/* <Stack as={"nav"} spacing={4}> */}
             <Stack direction={'column'} mr={3} align={"center"}>
               <Stack direction={'row'}>
-          <SocialButton label={'Devpost'} href={'#'}> 
+          <SocialButton label={'Devpost'} href={'https://cardinalhacks.devpost.com/'}> 
           <SiDevpost />
           
           </SocialButton>
@@ -184,14 +184,14 @@ function Navbar() {
           </Stack>
 
           <Stack direction={'row'}>
-          <SocialButton label={'Discord'} href={'#'}> 
+          <SocialButton label={'Discord'} href={'https://discord.gg/7gA9VQm3'}> 
           <FaDiscord />
           
           </SocialButton>
           <Text alignSelf={"center"}>Discord</Text>
           </Stack>
           <Stack direction={'row'}>
-          <SocialButton label={'Github'} href={'#'}> 
+          <SocialButton label={'Github'} href={'https://github.com/CardinalHackathon'}> 
           <FaGithub />
           
           </SocialButton>
