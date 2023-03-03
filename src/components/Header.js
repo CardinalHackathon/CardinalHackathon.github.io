@@ -73,6 +73,8 @@ Unleash your potential and challenge yourself at the annual 24-hour hackathon ho
             mt={8}
             size="lg"
             bgGradient="linear(to-r, yellow.400, orange.500, red.600)"
+            _hover={isDark ? {bg: "gray.800"} : {bg: "gray.500"}}
+            // _focus={{ boxShadow: "outline" }}
             onClick={() =>
               window.open(
                 "https://docs.google.com/forms/d/e/1FAIpQLSfwP11jDXznV2UUlgYNeZ5zARWz93XUiLMkvypkkgqYmBO7tA/viewform?usp=sf_link"

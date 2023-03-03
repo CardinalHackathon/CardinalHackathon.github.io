@@ -85,7 +85,7 @@ function Navbar() {
       boxShadow={"2xl"}
       px={4} 
       w="100%" 
-      backgroundColor={isDark ? "#051014" : "#e5e5e5"}
+      backgroundColor={isDark ? "#111618" : "#e5e5e5"}
       // p={4} 
       position="fixed" 
       top="0" 
