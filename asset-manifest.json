@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.90d93852.css",
-    "main.js": "/static/js/main.a3f37ce1.js",
-    "static/js/787.7efd31bd.chunk.js": "/static/js/787.7efd31bd.chunk.js",
-    "static/media/logo.png": "/static/media/logo.d14058551c203cb4edd6.png",
-    "static/media/hind-madurai-all-400-normal.woff": "/static/media/hind-madurai-all-400-normal.549dc68bc5ff2cb92287.woff",
-    "static/media/hind-madurai-tamil-400-normal.woff2": "/static/media/hind-madurai-tamil-400-normal.1955740ea78d9e50f10e.woff2",
-    "static/media/contrail-one-all-400-normal.woff": "/static/media/contrail-one-all-400-normal.97feb2c9b9a377de5ded.woff",
-    "static/media/hind-madurai-latin-400-normal.woff2": "/static/media/hind-madurai-latin-400-normal.d5baec905eb5870293c2.woff2",
-    "static/media/contrail-one-latin-400-normal.woff2": "/static/media/contrail-one-latin-400-normal.ca6f9f384301a5d10b68.woff2",
-    "static/media/hind-madurai-latin-ext-400-normal.woff2": "/static/media/hind-madurai-latin-ext-400-normal.014e773d96b907011efb.woff2",
-    "static/media/skill.svg": "/static/media/skill.58ccf22bfcf73804b05933eeaa52fa67.svg",
-    "static/media/skillBlack.svg": "/static/media/skillBlack.fd838339d2a9722b1acd7a12bd85d4db.svg",
-    "index.html": "/index.html",
-    "static/media/location.svg": "/static/media/location.f93fbfa8fab908476d40c41fa0c2b778.svg",
-    "static/media/locationBlack.svg": "/static/media/locationBlack.f98a38efeb23684cd35d856faf409833.svg",
-    "static/media/date.svg": "/static/media/date.a7f9a78903ea61e974ff467a84666d2e.svg",
-    "static/media/dateBlack.svg": "/static/media/dateBlack.7f835945bf4146fb0c4f8182dbdac6c7.svg",
-    "main.90d93852.css.map": "/static/css/main.90d93852.css.map",
-    "main.a3f37ce1.js.map": "/static/js/main.a3f37ce1.js.map",
-    "787.7efd31bd.chunk.js.map": "/static/js/787.7efd31bd.chunk.js.map"
+    "main.css": "/cardinalhacks.com/static/css/main.16612c21.css",
+    "main.js": "/cardinalhacks.com/static/js/main.ede45441.js",
+    "static/js/787.7efd31bd.chunk.js": "/cardinalhacks.com/static/js/787.7efd31bd.chunk.js",
+    "static/media/logo.png": "/cardinalhacks.com/static/media/logo.d14058551c203cb4edd6.png",
+    "static/media/hind-madurai-all-400-normal.woff": "/cardinalhacks.com/static/media/hind-madurai-all-400-normal.549dc68bc5ff2cb92287.woff",
+    "static/media/hind-madurai-tamil-400-normal.woff2": "/cardinalhacks.com/static/media/hind-madurai-tamil-400-normal.1955740ea78d9e50f10e.woff2",
+    "static/media/contrail-one-all-400-normal.woff": "/cardinalhacks.com/static/media/contrail-one-all-400-normal.97feb2c9b9a377de5ded.woff",
+    "static/media/hind-madurai-latin-400-normal.woff2": "/cardinalhacks.com/static/media/hind-madurai-latin-400-normal.d5baec905eb5870293c2.woff2",
+    "static/media/contrail-one-latin-400-normal.woff2": "/cardinalhacks.com/static/media/contrail-one-latin-400-normal.ca6f9f384301a5d10b68.woff2",
+    "static/media/hind-madurai-latin-ext-400-normal.woff2": "/cardinalhacks.com/static/media/hind-madurai-latin-ext-400-normal.014e773d96b907011efb.woff2",
+    "static/media/skill.svg": "/cardinalhacks.com/static/media/skill.58ccf22bfcf73804b05933eeaa52fa67.svg",
+    "static/media/skillBlack.svg": "/cardinalhacks.com/static/media/skillBlack.fd838339d2a9722b1acd7a12bd85d4db.svg",
+    "index.html": "/cardinalhacks.com/index.html",
+    "static/media/location.svg": "/cardinalhacks.com/static/media/location.f93fbfa8fab908476d40c41fa0c2b778.svg",
+    "static/media/locationBlack.svg": "/cardinalhacks.com/static/media/locationBlack.f98a38efeb23684cd35d856faf409833.svg",
+    "static/media/date.svg": "/cardinalhacks.com/static/media/date.a7f9a78903ea61e974ff467a84666d2e.svg",
+    "static/media/dateBlack.svg": "/cardinalhacks.com/static/media/dateBlack.7f835945bf4146fb0c4f8182dbdac6c7.svg",
+    "main.16612c21.css.map": "/cardinalhacks.com/static/css/main.16612c21.css.map",
+    "main.ede45441.js.map": "/cardinalhacks.com/static/js/main.ede45441.js.map",
+    "787.7efd31bd.chunk.js.map": "/cardinalhacks.com/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90d93852.css",
-    "static/js/main.a3f37ce1.js"
+    "static/css/main.16612c21.css",
+    "static/js/main.ede45441.js"
   ]
 }
