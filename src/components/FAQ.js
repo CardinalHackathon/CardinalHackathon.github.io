@@ -38,8 +38,8 @@ function FAQ() {
         <AccordionItem >
           <h2 >
             <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>
               <Box as="span" flex="1" textAlign="left">
                 What is CardinalHacks?
               </Box>
@@ -48,14 +48,13 @@ function FAQ() {
           </h2>
           <AccordionPanel pb={4} >
           CardinalHacks is a 24-hour hackathon organized by Saginaw Valley State University Cardinals. It is a fast-paced and highly energized event where participants come together to develop and showcase their technical skills, creativity and innovation. The event provides a platform for participants to work on real-world problems, learn from each other, and network with industry professionals. Teams have 24 hours to conceptualize, design, and build a project from start to finish. At the end of the event, participants present their projects to a panel of judges for a chance to win prizes. CardinalHacks is a unique opportunity for participants to showcase their abilities and gain valuable experience in a supportive and inclusive environment.
-
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
           <h2>
           <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left">
                 What is Hackathon?
               </Box>
               <AccordionIcon />
@@ -68,8 +67,8 @@ function FAQ() {
         <AccordionItem>
           <h2>
           <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left">
                 What to expect at Hackathon
               </Box>
               <AccordionIcon />
@@ -85,8 +84,8 @@ function FAQ() {
         <AccordionItem>
           <h2>
           <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left">
                 Who can apply?
               </Box>
               <AccordionIcon />
@@ -102,8 +101,8 @@ function FAQ() {
         <AccordionItem>
           <h2>
           <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left">
                 Do I need to know how to code to attend a Hackathon?
               </Box>
               <AccordionIcon />
@@ -119,8 +118,8 @@ function FAQ() {
         <AccordionItem>
           <h2>
           <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left">
                 How many people can be on a team?
               </Box>
               <AccordionIcon />
@@ -133,8 +132,8 @@ function FAQ() {
         <AccordionItem>
           <h2>
           <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left">
                 Do you need to be a SVSU student to attend?
               </Box>
               <AccordionIcon />
@@ -150,8 +149,8 @@ function FAQ() {
         <AccordionItem>
           <h2>
           <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left">
                 What can I learn from it?
               </Box>
               <AccordionIcon />
@@ -167,8 +166,8 @@ function FAQ() {
         <AccordionItem>
           <h2>
           <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left">
                 Is there going to be food provided?
               </Box>
               <AccordionIcon />
@@ -184,8 +183,8 @@ function FAQ() {
         <AccordionItem>
           <h2>
           <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left">
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left">
                 What do I do after I apply?
               </Box>
               <AccordionIcon />
@@ -201,8 +200,8 @@ function FAQ() {
         <AccordionItem>
           <h2>
           <AccordionButton 
-            _hover={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}
-            _expanded={{ bgClip:"text", bgGradient:"linear(to-r, yellow.300, orange.500, red.700)" }}>              <Box as="span" flex="1" textAlign="left" >
+            _hover={{ fontWeight: "bold" }}
+            _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left" >
                 I want to know more
               </Box>
               <AccordionIcon  />
