@@ -69,16 +69,13 @@ function FAQ() {
           <AccordionButton 
             _hover={{ fontWeight: "bold" }}
             _expanded={{ fontWeight: "bold" }}>              <Box as="span" flex="1" textAlign="left">
-                What to expect at Hackathon
+                What should I expect at a Hackathon?
               </Box>
               <AccordionIcon />
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            During the duration of the competion, you will work together with your team to create the best piece of software within the alotted time period. After the completion of the competition judges will go around and judge your project based on usability, creativity, and completeness.
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
@@ -92,10 +89,7 @@ function FAQ() {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Any currently enrolled high school or college student over the age of 18 is free to apply for the competition.
           </AccordionPanel>
         </AccordionItem>{" "}
         <AccordionItem>
@@ -109,10 +103,7 @@ function FAQ() {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            A general understanding of programming is recommended but not required to compete.
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
@@ -140,10 +131,7 @@ function FAQ() {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            No, any student currently enrolled in highschool or college over the age of 18 can attend.
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
@@ -157,10 +145,7 @@ function FAQ() {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Students can learn a vast number of different things from attending/competing in a hackathon, whether it be learning to program, expanding open their existing knowledge of programming, learning to work with a team, etc.
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
@@ -174,10 +159,7 @@ function FAQ() {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            At the moment, food will be provided but is subject to change.
           </AccordionPanel>
         </AccordionItem>{" "}
         <AccordionItem>
@@ -191,10 +173,7 @@ function FAQ() {
             </AccordionButton>
           </h2>
           <AccordionPanel pb={4}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            After you submit your application, you and your team are free to start thinking of ideas for projects you would like to complete during the hackathon. Please note that no work will be accepted that is done outside of the set competition time.
           </AccordionPanel>
         </AccordionItem>
         <AccordionItem>
